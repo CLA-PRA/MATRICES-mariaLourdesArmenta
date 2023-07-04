@@ -94,8 +94,7 @@ public class Matriz {
 		for (int i=0;i<matriz.length;i++) {
 			for(int j=0;j<matriz[i].length;j++)
 			{
-				System.out.print(this.matriz[i][j]+m1.matriz[i][j]+" ");
-				matrizResultado[i][j]=this.matriz[i][j]+m1.matriz[i][j];
+				//Aqui va el codigo que falta
 			}
 			System.out.print("\n");
 		}
@@ -123,7 +122,7 @@ public class Matriz {
 				
 				for( int k=0;k<m1.matriz.length;k++)
 				{
-					suma = suma +this.matriz[i][k]*m1.matriz[k][j];
+					//Aqui va el codigo que falta
 				}
 				System.out.print(suma+" ");
 				matrizResultado[i][j]=suma;
@@ -140,11 +139,9 @@ public class Matriz {
 		 * Regresa verdadero cuando ambas matrices
 		 * son del mismo orden
 		 */
+		//Aqui va el codigo que falta para que regrese true
 		
-		if (nRenglones == m1.getnRenglones() && 
-				nColumnas == m1.getnColumnas())
-			return true;
-		else
+		
 			return false;
 	}
 	public boolean validaMultiplica(Matriz m1) {
@@ -153,9 +150,8 @@ public class Matriz {
 		 * la matriz 1 es igual al número de filas de la 
 		 * matriz 2
 		 */
-		if (nColumnas == m1.getnRenglones()) 
-			return true;
-		else
+		//Aqui va el codigo que falta para que regrese true
+		
 			return false;
 	}
 }
